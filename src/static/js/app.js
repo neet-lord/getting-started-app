@@ -91,6 +91,7 @@ function AddItemForm({ onNewItem }) {
 
     return (
         <Form onSubmit={submitNewItem}>
+            <p>Lusayo's Docker App</p>
             <InputGroup className="mb-3">
                 <Form.Control
                     value={newItem}
